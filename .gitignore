@@ -1,0 +1,30 @@
+# Secrets — NEVER commit
+*.vault_pass
+.vault_pass
+vault-password*
+id_*
+*.pem
+*.key
+!*.pub
+.env
+secrets.yml
+**/vault.yml
+
+# Ansible
+*.retry
+.ansible/
+__pycache__/
+*.pyc
+
+# OS / editor
+.DS_Store
+*.swp
+*~
+.idea/
+.vscode/
+.obsidian/
+
+# Logs / temp
+*.log
+tmp/
+.cache/
